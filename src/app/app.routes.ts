@@ -7,6 +7,8 @@ import { RepoListComponent } from './github/repo-list/repo-list.component';
 import { RepoDetailComponent } from './github/repo-detail/repo-detail.component';
 import { ContactComponent } from './contact/contact.component';
 import {ClientComponent} from "./clientInfo/clientInfo.component";
+import {DaysComponent} from "./days/days.component";
+import {ListComponent} from "./list/list.component";
 
 export const rootRouterConfig: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -23,6 +25,8 @@ export const rootRouterConfig: Routes = [
       }]
   },
   { path: 'client', component: ClientComponent } ,
+  { path: 'days', component: DaysComponent } ,
+  { path: 'list', component: ListComponent } ,
   { path: 'contact', component: ContactComponent }
 ];
 

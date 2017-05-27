@@ -15,6 +15,8 @@ import { RepoDetailComponent } from './github/repo-detail/repo-detail.component'
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { ContactComponent } from './contact/contact.component';
 import { ClientComponent } from './clientInfo/clientInfo.component';
+import {DaysComponent} from "./days/days.component";
+import {ListComponent} from "./list/list.component";
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ClientComponent } from './clientInfo/clientInfo.component';
     RepoDetailComponent,
     HomeComponent,
     ContactComponent,
-    ClientComponent
+    ClientComponent,
+    DaysComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
