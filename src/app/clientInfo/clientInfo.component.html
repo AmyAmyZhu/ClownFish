@@ -1,0 +1,21 @@
+<form (ngSubmit)="submitForm()" [formGroup]="clientForm" novalidate>
+  <div class="form-content">
+    <label>
+      Name:
+      <input type="text" formControlName="name" class="sd-form-control" placeholder="Enter your name.">
+    </label>
+    <label>
+      Age:
+      <input type="text" formControlName="name" class="sd-form-control" placeholder="Enter your age.">    </label>
+    <label>
+      Gender:
+      <select>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+    </label>
+    <div class="form-submit">
+      <button type="submit">Submit</button>
+    </div>
+  </div>
+</form>
